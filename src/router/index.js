@@ -32,6 +32,14 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/02_custom-event/Father.vue')
+    },
+    {
+      path: '/mitt',
+      name: 'mitt',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/03_mitt/Father.vue')
     }
   ]
 })
