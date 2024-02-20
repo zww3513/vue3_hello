@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+![image](https://github.com/zww3513/vue3_hello/assets/40628473/94ec147f-aa1c-49d0-882d-ccd83cabaeec)
