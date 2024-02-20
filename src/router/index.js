@@ -23,7 +23,15 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/props/father.vue')
+      component: () => import('../views/01_props/Father.vue')
+    },
+    {
+      path: '/custom-event',
+      name: 'custom-event',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/02_custom-event/Father.vue')
     }
   ]
 })

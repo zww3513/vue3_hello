@@ -10,7 +10,7 @@
 
 <script setup >
 import { ref } from 'vue'
-import Son from '@/views/props/son.vue'
+import Son from '@/views/01_props/Son.vue'
 
 defineOptions({
   name: 'PropsFather'

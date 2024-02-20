@@ -17,6 +17,7 @@
                 </template>
                 <el-menu-item index="/">[主页]</el-menu-item>
                 <el-menu-item index="/props">[props]</el-menu-item>
+                <el-menu-item index="/custom-event">[自定义事件]</el-menu-item>
                 <el-menu-item index="/about">[mitt]</el-menu-item>
                 <el-menu-item index="/about">[v-model]</el-menu-item>
                 <el-menu-item index="/about">[$attr]</el-menu-item>
