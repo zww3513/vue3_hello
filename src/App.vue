@@ -19,7 +19,7 @@
                 <el-menu-item index="/props">[props]</el-menu-item>
                 <el-menu-item index="/custom-event">[自定义事件]</el-menu-item>
                 <el-menu-item index="/mitt">[mitt]</el-menu-item>
-                <el-menu-item index="/about">[v-model]</el-menu-item>
+                <el-menu-item index="/v-model">[v-model]</el-menu-item>
                 <el-menu-item index="/about">[$attr]</el-menu-item>
                 <el-menu-item index="/about">[provide、inject]</el-menu-item>
                 <el-menu-item index="/about">[pinia]</el-menu-item>

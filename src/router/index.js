@@ -40,6 +40,14 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/03_mitt/Father.vue')
+    },
+    {
+      path: '/v-model',
+      name: 'v-model',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/04_v-model/father.vue')
     }
   ]
 })
