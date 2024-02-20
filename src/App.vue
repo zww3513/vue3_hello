@@ -21,7 +21,7 @@
                 <el-menu-item index="/mitt">[mitt]</el-menu-item>
                 <el-menu-item index="/v-model">[v-model]</el-menu-item>
                 <el-menu-item index="/$attrs">[$attr]</el-menu-item>
-                <el-menu-item index="/about">[provide、inject]</el-menu-item>
+                <el-menu-item index="/$refs-$parent">[$refs、$parent]</el-menu-item>
                 <el-menu-item index="/about">[pinia]</el-menu-item>
                 <el-menu-item index="/about">[slat插槽]</el-menu-item>
               </el-sub-menu>
