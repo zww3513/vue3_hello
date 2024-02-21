@@ -8,7 +8,7 @@
         <el-aside width="600px" height="100%">
           <el-scrollbar>
             <el-menu :default-active="activeIndex" :router="true">
-              <el-sub-menu index="/">
+              <el-sub-menu index="/props">
                 <template #title>
                   <el-icon>
                     <Location />
@@ -23,6 +23,15 @@
                 <el-menu-item index="/$refs-$parent">[$refs、$parent]</el-menu-item>
                 <el-menu-item index="/provide-inject">[provide、inject]</el-menu-item>
                 <el-menu-item index="/pinia">[pinia]</el-menu-item>
+              </el-sub-menu>
+              <el-sub-menu index="/hooks">
+                <template #title>
+                  <el-icon>
+                    <Document />
+                  </el-icon>
+                  <span>hooks</span>
+                </template>
+                <el-menu-item index="/hooks">[hooks]</el-menu-item>
               </el-sub-menu>
             </el-menu>
           </el-scrollbar></el-aside>
