@@ -7,7 +7,7 @@
       <el-container>
         <el-aside width="600px" height="100%">
           <el-scrollbar>
-            <el-menu  :router="true">
+            <el-menu :router="true">
               <el-sub-menu index="/props">
                 <template #title>
                   <el-icon>
@@ -32,6 +32,15 @@
                   <span>hooks</span>
                 </template>
                 <el-menu-item index="/hooks">[hooks]</el-menu-item>
+              </el-sub-menu>
+              <el-sub-menu index="/pinia">
+                <template #title>
+                  <el-icon>
+                    <Clock />
+                  </el-icon>
+                  <span>pinia</span>
+                </template>
+                <el-menu-item index="/pinia">[pinia]</el-menu-item>
               </el-sub-menu>
               <el-sub-menu index="/watch">
                 <template #title>
@@ -63,6 +72,7 @@ import {
   Menu as IconMenu,
   Location,
   Setting,
+  Clock,
 } from '@element-plus/icons-vue'
 
 

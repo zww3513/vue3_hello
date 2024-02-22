@@ -1,5 +1,11 @@
 <template>
   <div>
-    查看pinia教程
+    <Count />
+    <LoveTalk />
   </div>
 </template>
+
+<script setup>
+import Count from './Count.vue';
+import LoveTalk from './LoveTalk.vue';
+</script>
