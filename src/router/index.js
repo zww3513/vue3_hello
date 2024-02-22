@@ -88,6 +88,37 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/09_hooks/Person.vue')
+    },
+    {
+      path: '/watch1',
+      name: 'watch1',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/10_watch/watch1.vue')
+    },
+    {
+      path: '/watch2',
+      name: 'watch2',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/10_watch/watch2.vue')
+    },
+    {
+      path: '/watch3',
+      name: 'watch3',
+      component: () => import('../views/10_watch/watch3.vue')
+    },
+    {
+      path: '/watch4',
+      name: 'watch4',
+      component: () => import('../views/10_watch/watch4.vue')
+    },
+    {
+      path: '/watch5',
+      name: 'watch5',
+      component: () => import('../views/10_watch/watch5.vue')
     }
   ]
 })

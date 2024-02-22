@@ -7,7 +7,7 @@
       <el-container>
         <el-aside width="600px" height="100%">
           <el-scrollbar>
-            <el-menu :default-active="activeIndex" :router="true">
+            <el-menu  :router="true">
               <el-sub-menu index="/props">
                 <template #title>
                   <el-icon>
@@ -32,6 +32,19 @@
                   <span>hooks</span>
                 </template>
                 <el-menu-item index="/hooks">[hooks]</el-menu-item>
+              </el-sub-menu>
+              <el-sub-menu index="/watch">
+                <template #title>
+                  <el-icon>
+                    <Setting />
+                  </el-icon>
+                  <span>watch监视</span>
+                </template>
+                <el-menu-item index="/watch1">[watch监视-情况1]</el-menu-item>
+                <el-menu-item index="/watch2">[watch监视-情况2]</el-menu-item>
+                <el-menu-item index="/watch3">[watch监视-情况3]</el-menu-item>
+                <el-menu-item index="/watch4">[watch监视-情况4]</el-menu-item>
+                <el-menu-item index="/watch5">[watch监视-情况5]</el-menu-item>
               </el-sub-menu>
             </el-menu>
           </el-scrollbar></el-aside>
