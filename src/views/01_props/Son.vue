@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-
+import {watch} from 'vue'
 
 defineOptions({
   name: 'Son'
@@ -15,6 +15,11 @@ defineOptions({
 
 
 const props = defineProps(['name'])
+
+watch(() => props.name, () => {
+  console.log('props.name变化了', props.name)
+})
+
 </script>
 
 <style scoped>

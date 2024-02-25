@@ -6,11 +6,14 @@
         <input type="text" v-model="name">
     </div>
     <Son :name="name"/>
+    <Log :log="name"/>
 </template>
 
 <script setup >
 import { ref } from 'vue'
 import Son from '@/views/01_props/Son.vue'
+import Log from '@/views/01_props/Log.vue'
+
 
 defineOptions({
   name: 'PropsFather'
