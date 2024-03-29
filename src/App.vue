@@ -55,6 +55,15 @@
                 <el-menu-item index="/watch4">[watch监视-情况4]</el-menu-item>
                 <el-menu-item index="/watch5">[watch监视-情况5]</el-menu-item>
               </el-sub-menu>
+              <el-sub-menu index="/xterm">
+                <template #title>
+                  <el-icon>
+                    <Clock />
+                  </el-icon>
+                  <span>xterm</span>
+                </template>
+                <el-menu-item index="/xterm">[xterm]</el-menu-item>
+              </el-sub-menu>
             </el-menu>
           </el-scrollbar></el-aside>
         <el-main>

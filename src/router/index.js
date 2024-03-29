@@ -119,6 +119,11 @@ const router = createRouter({
       path: '/watch5',
       name: 'watch5',
       component: () => import('../views/10_watch/watch5.vue')
+    },
+    {
+      path: '/xterm',
+      name: 'xterm',
+      component: () => import('../views/11_xterm/Father.vue')
     }
   ]
 })

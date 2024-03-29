@@ -10,7 +10,7 @@
 
 
 <script setup>
-import { ref } from 'vue'
+import { ref ,onMounted} from 'vue'
 defineOptions({
   name: 'Son'
 })
@@ -22,6 +22,11 @@ const emit = defineEmits(['send-toy'])
 
 let toy = ref('小熊')
 
+onMounted(()=>{
+  setTimeout(()=>{
+    emit('send-toy','通过定时器触发自定义事件')
+  },6000)
+})
 
 </script>
 
