@@ -3,7 +3,7 @@
   </Codemirror>
 </template>
 <script setup>
-import { ref,watch, defineProps, onMounted, onUnmounted } from "vue"
+import { ref,watch, onMounted, onUnmounted } from "vue"
 import "codemirror/mode/javascript/javascript.js"
 import Codemirror from "codemirror-editor-vue3"
 

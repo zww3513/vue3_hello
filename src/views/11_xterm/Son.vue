@@ -7,7 +7,7 @@
 
 
 <script setup>
-import { ref, onMounted, watch, defineProps } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 
 import { Terminal } from 'xterm'
 import { FitAddon } from "xterm-addon-fit";
